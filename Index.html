@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <title>Time Capsule</title>
+  <link rel="icon" type="image/png" href="logo.PNG">
+  <style>
+    body {
+      font-family: Verdana;
+    }
+    .header {
+      /*background-color: #2d2d2d;*/
+      background-color: rgb(121, 71, 121);
+      color:rgb(255, 100, 0);
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 30px;
+	  font-family: 'Pacifico';
+	}
+    .menu {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      text-align: center;
+	  color: rgb(255, 0, 255);
+	  font-family: 'Pacifico';
+    }
+	.item-description {
+		display: block;
+		font-size: 0.8em;
+		font-style: italic;
+		font-weight: normal;
+		margin-top: 5px;
+	}
+
+    .section:last-of-type {
+      margin-bottom: 0;
+    }
+    .section .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid cyan;
+      padding: 10px 0;
+    }
+
+    .section .item:last-of-type {
+      border-bottom: none;
+    }
+
+    .section .item h3 {
+      font-size: 24px;
+      margin: 0;
+      color: black;
+    }
+    .section .item p {
+      margin: 0;
+    }
+    .section .item img {
+      margin-right: 20px;
+    }
+    .drinks-image {
+      float: left;
+      margin-right: 20px;
+    }
+	.food-image {
+		float: right;
+		margin-left: 20px;
+	}
+	.desserts-image{
+		float: left;
+		margin-right: 20px;
+	}
+	.final footer {
+		/*background-color: #2d2d2d;*/
+        background-color: rgb(121, 71, 121);
+		padding: 20px;
+		margin-top: 50px;
+	}
+	.final footer p {
+		margin: 0;
+		color: #686868;
+		font-family: 'Pacifico', cursive;
+		font-size: 24px;
+		text-align: center;
+	}
+	.final footer .name {
+		color: #f3727b;
+		font-size: 28px;
+	}
+	.final footer .subject {
+		color: #f9c74f;
+		font-size: 24px;
+	}
+	.final footer .date {
+		color: #90be6d;
+		font-size: 20px;
+	}
+	.final footer .copyright {
+		/*color: #a3a3a3;*/
+        color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.final footer hr {
+		border: none;
+		border-top: 1px dashed #a3a3a3;
+		margin: 20px 0;
+	}
+	.final footer .decorative-line {
+		background-color: #90be6d;
+		height: 4px;
+		margin: 20px auto;
+		width: 80px;
+	}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Time Capsule</h1>
+	<h2>C. Biurdana, 1, Pamplona</h2>
+	<p>¡La mejor experiencia de bebidas y comida en la ciudad!</p>
+  </div>
+
+  <div class="menu">
+    <div class="section">
+      <h2>Bebidas</h2>
+      <img src="bebidas.jpg" alt="Drinks Image" class="drinks-image">
+      <div class="item">
+        <h3>Cóctel<span class="item-description">Tipos de cócteles</span></h3>
+        <p>€14</p>
+      </div>
+      <div class="item">
+        <h3>Gin Fizz<span class="item-description">Descripción de Gin Fizz</span></h3>
+        <p>€12</p>
+      </div>
+      <div class="item">
+        <h3>Whiskey Sour<span class="item-description">Descripción de Whiskey Sour</span></h3>
+        <p>€11</p>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Aperitivos</h2>
+	  <img src="aperitivo.jpg" alt="Food Imagen" class="food-image">
+      <div class="item">
+        <h3>Patatas Bravas<span class="item-description">Descripción de Patatas Bravas</span></h3>
+        <p>€15</p>
+      </div>
+      <div class="item">
+        <h3>Aros de cebolla<span class="item-description">Descripción de Aros de cebolla</span></h3>
+        <p>€8</p>
+      </div>
+      <div class="item">
+        <h3>Bocadillos<span class="item-description">Tipos de Bocadillos</span></h3>
+        <p>€7</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Postres</h2>
+	  <img src="postres.jpeg" alt="Desserts Image" class="desserts-image">
+      <div class="item">
+        <h3>Tarta de Chocolate<span class="item-description">Descripción de la tarta de Chocolate</span></h3>
+        <p>€8</p>
+      </div>
+      <div class="item">
+        <h3>Helado de Vainilla<span class="item-description">Descripción del Helado</span></h3>
+        <p>€9</p>
+      </div>
+      <div class="item">
+        <h3>Helado de Fresa<span class="item-description">Descripción del Helado</span></h3>
+        <p>€10</p>
+      </div>
+    </div>
+  </div>
+  <div class="final">
+	<footer>
+	  <p class="name">Albert Guasti</p>
+	  <p class="subject">INFORMATICA  INDUSTRIAL</p>
+	  <p class="date">11/04/2023</p>
+	  <p class="copyright">
+		&copy; 2023 - Todos los derechos reservados.
+	  </p>
+	</footer>
+  </div>  
+</body>
+</html>
